@@ -10,7 +10,7 @@ A lightweight Rust-backed hierarchical clustering implementation, currently supp
 
 ## 📦 Why Rust?
 
-While the C++-based [`fastcluster`](https://danifold.net/fastcluster.html) library is highly efficient and performs well on **macOS/Linux** and some **Windows (Intel)** machines, it can **fail to run or compile** on certain Windows environments—particularly on **non-Intel chipsets**, such as those found in recent **CMD (Microsoft custom)** hardware.
+While the C++-based [`fastcluster`](https://danifold.net/fastcluster.html) library is highly efficient and performs well on **macOS/Linux** and some **Windows (Intel)** machines, it can **fail to run or compile** on certain Windows environments—particularly on **non-Intel chipsets**, such as those found in recent **AMD** hardware.
 
 This Rust implementation offers:
 
