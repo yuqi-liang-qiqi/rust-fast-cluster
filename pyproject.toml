@@ -1,0 +1,23 @@
+[build-system]
+requires = ["maturin>=1.0"]
+build-backend = "maturin"
+
+[project]
+name = "rust_fast_cluster"
+version = "0.1.0"
+description = "Fast hierarchical clustering in Rust with Python bindings"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/rust_fast_cluster"
+
+[tool.maturin]
+bindings = "pyo3"
+module-name = "rust_fast_cluster"
